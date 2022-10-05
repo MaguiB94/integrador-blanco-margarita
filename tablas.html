@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas combinadas</title>
+    <link rel="stylesheet" href="./imagenes/styless.css">
+    <link rel="stylesheet" href="./imagenes/mediaqueries.css">
+    <link rel="stylesheet" href="./imagenes/animaciones.css">
+
+    <link rel="icon" type="image" href="./imagenes/menu.svg">
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="./imagenes/logo.png" alt="LOGO" class="logo">
+        </a>
+        <h1 class="header-list"> SAKANA SUSHI </h1>
+
+        <nav class="navbar">
+            <label for="menu-toggle" class="menu-label">
+                <img src="./imagenes/hamburguesa.svg" alt="icono menu" class="menu">
+            </label>
+            <input type="checkbox" id="menu-toggle">
+
+            <ul class="navbar-list">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="">Pedidos</a>
+                </li>
+            </ul>
+
+            <label for="cart-toggle" class="cart-label">
+                <img src="./imagenes/carrito.svg" alt="carrito" class="cart-icon">
+            </label>
+            <input type="checkbox" id="cart-toggle">
+            <div class="cart">
+                <h2>Pedidos</h2>
+
+                <div class="cart-item">
+                    <img src="./imagenes/combinado 30.jpg" alt="tabla">
+                    <div class="item-info">
+                        <h3 class="item-title">Tabla x 30u</h3>
+                        <span class="item-price">$4900</span>
+                    </div>
+                    <div class="item-handler">
+                        <span class="quantity-handler down">-</span>
+                        <span class="item-quantity">1</span>
+                        <span class="quantity-handler up">+</span>
+                    </div>
+                </div>
+                <span class="divider"></span>
+
+                <div class="cart-total">
+                    <p>Total:</p>
+                    <span>$4900</span>
+                </div>
+                <button class="btn-add">Comprar</button>
+            </div>
+
+            <div class="overlay"></div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section id="products">
+            <div class="categories">
+                <a href="index.html">
+                    <button class="category1">🍣Home</button>
+                </a>
+            </div>
+        </section>
+
+        <section id="contenido">
+            <h1>Tablas combinadas</h1>
+
+            <div class="products-container">
+                <div class="product">
+                    <img src="./imagenes/combinado2.jpg" alt="15">
+                    <div class="product-info">
+                        <div class="product-top">
+                            <h3>Tablas x 15u</h3>
+                        </div>
+
+                        <div class="product-mid">
+                            <span>$2600</span>
+                        </div>
+                        <button class="btn-agregar">Agregar</button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="./imagenes/combinado 30.jpg" alt="30">
+                    <div class="product-info">
+                        <div class="product-top">
+                            <h3>Tablas x 30u</h3>
+                        </div>
+                        <div class="product-mid">
+                            <span>$4900</span>
+                        </div>
+                        <button class="btn-agregar">Agregar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <ul class="footer-links">
+                <li><a href="https://web.whatsapp.com/" target="_blank">Contacto</a></li>
+                <li><a href="#">Promociones</a></li>
+                <li><a href="#">Terminos de uso</a></li>
+            </ul>
+        </div>
+        <p>Gracias por elegirnos 💖</p>
+
+        <div class="redsocial">
+
+            <a href="https://web.whatsapp.com/" target="_blank">
+                <img src="./imagenes/logowhat.png" alt="whatsapp" class="whatsapp">
+            </a>
+
+            <a href="https://www.instagram.com/?hl=es" target="_blank">
+                <img src="./imagenes/logoinsta.png" alt="instagram" class="instagram">
+            </a>
+
+            <a href="https://www.google.com.ar/maps/place/Av.+Victorica,+Moreno,+Provincia+de+Buenos+Aires/@-34.6344496,-58.7935862,17z/data=!3m1!4b1!4m5!3m4!1s0x95bc944bb2463ea9:0x6d0a4f06e36cc406!8m2!3d-34.634454!4d-58.7913922"
+                target="_blank">
+                <img src="./imagenes/maps1.png" alt="maps" class="maps">
+            </a>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,190 @@
+/*Tablets */
+
+@media (max-width: 992px) {
+    .navbar {
+        gap: 10px;
+    }
+
+    .cart-icon {
+        border: 0px solid;
+        height: 18px;
+        margin-left: 3px;
+        background: red;
+        border: 1px solid black;
+    }
+
+    .logo {
+        display: none;
+    }
+
+
+    .header-list {
+        margin-left: 20%;
+    }
+
+    .navbar-list {
+        position: absolute;
+        top: 65px;
+        width: 100%;
+        flex-direction: column;
+        background-color: black;
+        border: 1px solid red;
+        border-top: none;
+        border-radius: 0px 0px 15px 15px;
+        align-items: flex-start;
+        padding: 45px 30px;
+        gap: 25px;
+        z-index: 2;
+        display: none;
+    }
+
+    .navbar-list a {
+        font-size: 16px;
+    }
+
+    .menu-label {
+        display: flex;
+        background: red;
+        border: 1px solid black;
+        order: 2;
+        cursor: pointer;
+    }
+
+    #menu-toggle:checked+.navbar-list {
+        display: flex;
+    }
+
+    .menu-label img {
+        width: 25px;
+        height: 25px
+    }
+
+    .categories {
+        flex-wrap: wrap;
+        max-width: 400px;
+    }
+
+    .category {
+        width: 120px;
+    }
+
+    .salmon-info {
+        display: none;
+    }
+
+    .salmon-roll {
+        width: 100%;
+        gap: 30px;
+        justify-content: center;
+    }
+
+
+    .text {
+        display: none;
+    }
+
+
+    #rolls h3 {
+        text-align: center;
+        width: 80%;
+    }
+
+    #rolls {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .info1 {
+        max-width: 80%;
+    }
+
+    .rolls2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rolls2 img {
+        flex-direction: column;
+    }
+
+}
+
+/*Celulares*/
+
+@media (max-width: 576px) {
+
+    .cart {
+        left: 0;
+        width: 100%;
+        border: none;
+    }
+
+    .cart-item {
+        flex-wrap: wrap;
+    }
+
+    .header-list {
+        color: white;
+        margin-left: 15%;
+        font-size: 35px;
+    }
+
+    .categories {
+        display: none;
+    }
+
+    .salmon-roll {
+        width: 90%;
+        max-width: unset;
+    }
+
+    #rolls {
+        width: 80%;
+    }
+
+    #rolls h3 {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .rolls2 p {
+        width: 100%;
+        padding: 10px;
+        line-height: 30px;
+        gap: 50px;
+    }
+
+    .ver {
+        font-size: 20px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #contenido h1 {
+        font-size: 25px;
+    }
+
+    .products-container {
+        width: 80%;
+    }
+
+    .product {
+        width: 80%;
+    }
+
+    .product-top h3,
+    .product-mind span {
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+
+
+    
+}
