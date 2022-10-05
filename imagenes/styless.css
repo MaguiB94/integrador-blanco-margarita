@@ -283,8 +283,6 @@ main {
 }
 
 .rolls2 {
-    width: 350px;
-    height: 350px;
     padding: 25px 50px;
     display: flex;
     flex-direction: column;
@@ -294,8 +292,8 @@ main {
 }
 
 .rolls2 img {
-    height: 300px;
-    width: 300px;
+    height: 280px;
+    width: 280px;
     cursor: pointer;
 }
 
@@ -598,18 +596,30 @@ footer a:hover {
 
 /*estilo para pagina roll*/
 
-.rolls1,
-.rolls12,
-.rolls3,
-.rolls4,
-.rolls5,
-.rolls6 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 280px;
-    width: 280px;
-}
+.roll-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding: 25px 0;
+    }
+
+    .container {
+        background: var(--bg-color);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .container img {
+        height: 300px;
+        width: 350px;
+    }
+
 
 .product-top p{
     display: flex;
@@ -618,4 +628,30 @@ footer a:hover {
     color: white;
     font-size: 12px;
     font-weight: 300;
+}
+
+/*estilos para pagina hotroll*/
+
+.hot-roll {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 25px 0;
+}
+
+.hotrolls {
+    background: var(--bg-color);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.hotrolls img {
+    height: 300px;
+    width: 320px;
 }
