@@ -19,7 +19,7 @@
 
 
     .header-list {
-        margin-left: 20%;
+        margin-left: 5px;
     }
 
     .navbar-list {
@@ -110,6 +110,10 @@
         flex-direction: column;
     }
 
+    .cuenta {
+        display: none;
+    }
+
 }
 
 /*Celulares*/
@@ -128,7 +132,7 @@
 
     .header-list {
         color: white;
-        margin-left: 15%;
+        margin-left: 5%;
         font-size: 35px;
     }
 
@@ -146,7 +150,7 @@
     }
 
     #rolls h3 {
-        font-size: 25px;
+        font-size: 20px;
         width: 100%;
     }
 
@@ -184,7 +188,24 @@
         font-weight: 300;
     }
 
+/*estilo para formulario de registro*/
 
+.form-register h3,
+.form-register p {
+    width: 80%;
+    font-size: 15px;
+    font-weight: 300;
+}
 
-    
+.registro,
+.enviar {
+    width: 80%;
+    font-size: 12px;
+    font-weight: 300;
+}
+ 
+.cuenta {
+    display: none;
+}
+
 }
