@@ -7,7 +7,7 @@
 
     .cart-icon {
         border: 0px solid;
-        height: 18px;
+        height: 22px;
         margin-left: 3px;
         background: red;
         border: 1px solid black;
@@ -65,7 +65,7 @@
     }
 
     .category {
-        width: 120px;
+            padding: 15px 15px;
     }
 
     .salmon-info {
@@ -110,6 +110,11 @@
         flex-direction: column;
     }
 
+    .form-register,
+    .register {
+        max-width: 100%;
+    }
+
     .cuenta {
         display: none;
     }
@@ -125,6 +130,9 @@
         width: 100%;
         border: none;
     }
+.cart-icon {
+    height: 22px;
+}
 
     .cart-item {
         flex-wrap: wrap;
@@ -136,8 +144,8 @@
         font-size: 35px;
     }
 
-    .categories {
-        display: none;
+    .category {
+        padding: 10px 10px;
     }
 
     .salmon-roll {
@@ -188,24 +196,29 @@
         font-weight: 300;
     }
 
-/*estilo para formulario de registro*/
+    /*estilo para formulario de registro*/
 
-.form-register h3,
-.form-register p {
-    width: 80%;
-    font-size: 15px;
-    font-weight: 300;
-}
+    .form-register,
+    .register {
+        max-width: 70%;
+    }
 
-.registro,
-.enviar {
-    width: 80%;
-    font-size: 12px;
-    font-weight: 300;
-}
- 
-.cuenta {
-    display: none;
-}
+    .form-register h3,
+    .form-register p {
+        width: 80%;
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .registro,
+    .enviar {
+        width: 80%;
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    .cuenta {
+        display: none;
+    }
 
 }

@@ -147,7 +147,7 @@ main {
 .category {
     background: var(--gradient);
     border: none;
-    padding: 20px 40px;
+    padding: 20px 70px;
     font-size: 14px;
     font-weight: 800;
     color: white;
@@ -741,7 +741,7 @@ footer a:hover {
 
 
 .register {
-    width: 400px;
+    width: 80%;
     background: var(--gradient);
     padding: 80px;
     margin-top: 40px;
