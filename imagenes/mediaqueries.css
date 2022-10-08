@@ -116,7 +116,6 @@
 
     .form-register,
     .register {
-        width: 100%;
         justify-content: center;
     }
 
@@ -209,7 +208,8 @@
 
     .form-register h3,
     .form-register p {
-        width: 80%;
+        text-align: center;
+        width: 100%;
         font-size: 15px;
         font-weight: 300;
     }
