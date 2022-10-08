@@ -204,3 +204,9 @@ to {
     background-color: red;
     transition: all 0.2s ease-in;
 }
+
+.category:hover, 
+.category1:hover {
+    background: black;
+    transition: all 0.3s ease-in-out;
+}
