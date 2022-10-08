@@ -65,7 +65,7 @@
     }
 
     .category {
-            padding: 15px 15px;
+        padding: 15px 15px;
     }
 
     .salmon-info {
@@ -74,7 +74,7 @@
 
     .salmon-roll {
         width: 100%;
-        gap: 30px;
+        gap: 20px;
         justify-content: center;
     }
 
@@ -110,14 +110,16 @@
         flex-direction: column;
     }
 
-    .form-register,
-    .register {
-        max-width: 100%;
-    }
-
     .cuenta {
         display: none;
     }
+
+    .form-register,
+    .register {
+        width: 100%;
+        justify-content: center;
+    }
+
 
 }
 
@@ -130,9 +132,10 @@
         width: 100%;
         border: none;
     }
-.cart-icon {
-    height: 22px;
-}
+
+    .cart-icon {
+        height: 22px;
+    }
 
     .cart-item {
         flex-wrap: wrap;
@@ -200,7 +203,8 @@
 
     .form-register,
     .register {
-        max-width: 70%;
+        width: 80%;
+        max-width: unset;
     }
 
     .form-register h3,
